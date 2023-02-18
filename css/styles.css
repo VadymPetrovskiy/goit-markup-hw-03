@@ -102,16 +102,10 @@ body {
 
 .nav-list {
     display: flex;
-    list-style-type: none;
-
+    gap: 40px;
     
-    
+    list-style-type: none;   
 }
-
-.nav-button {
-    margin-right: 40px;
-}
-
 
 .nav-items {
     text-decoration: none;
@@ -126,18 +120,6 @@ body {
     padding-top: 24px;
     
 }
-
-.nav-list:last-child {
-    margin-right: 0px;
-}
-
-
-
-.nav-items:hover, :focus {
-    
-}
-
-
 
 .contacts {
     display: flex;
@@ -157,7 +139,8 @@ body {
 
 .contacts-list {    
     display: flex;
-    
+    gap: 40px;
+
     text-decoration: none;
     list-style-type: none;
 
@@ -166,7 +149,7 @@ body {
     
 }
 
-.contacts-items {
+.contacts-items {button
     
     
     text-decoration: none;
@@ -512,7 +495,7 @@ body {
 
 .webstudiofoot {
     text-decoration: none;
-    margin-right: 76px;   
+      
 }
 
 
@@ -556,15 +539,7 @@ body {
     margin-right: 156px; 
 }
 
-.nav-buttons-container {
-    width: 586px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
 
-    padding-inline-start: 0;
-}
 
 .products {
     background: #FFFFFF;
@@ -591,15 +566,19 @@ body {
 .nav-buttons {
     display: flex;
     gap: 24px;
+    justify-content: center;
+
     
     background: #FFFFFF;
     margin-bottom: 72px;
+    list-style-type: none;
     
 }
 
 .nav-buttons-items {
     display: block;
     
+    font-family: Roboto
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -619,7 +598,9 @@ body {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
-    border: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .products-photo {
@@ -636,6 +617,13 @@ body {
 .nav-buttons-items:focus {
     color: #FFFFFF;
     background: #404BBF;
+}
+
+
+
+.buttons-items {
+    text-decoration: none;
+    
 }
 
 .products-lists {
